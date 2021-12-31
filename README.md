@@ -1,1 +1,1 @@
-<h1>✨ Basic CSS reset for bootstrapping personal projects. ✨</h1>
+<h3>✨ Basic CSS reset for bootstrapping personal projects. ✨</h3>
