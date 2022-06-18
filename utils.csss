@@ -1,0 +1,30 @@
+/* These utilities are optional and not required for resetting purpose. */
+
+.spacing > * + * {
+	margin-block-start: var(—spacing, 1rem);
+}
+
+.text-wrapper {
+	width: min(80ch, 100vw - 2rem);
+}
+
+.indent-list-items > li:nth-child(-n + 9) {
+	text-indent: var(--list-indentation-sm, -2ch);
+}
+
+.indent-list-items > li:nth-child(n + 10) {
+    text-indent: var(--list-indentation-md, -3ch);
+}
+
+/* Light Mode / Dark Mode */
+:root {
+	--color-bg: var(--dark-colour, #000);
+	--color-fg: var(--light-colour, #fff);
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--color-bg: var(--light-colour, #fff);
+		--color-fg: var(--dark-colour, #000);
+	}
+}
