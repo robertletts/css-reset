@@ -17,7 +17,7 @@
 }
 
 :focus {
-	outline: 1px, solid, var(--outline, #000);
+	outline: 1px solid var(--outline, #000);
 	outline-offset: 0.25rem;
 }
 
