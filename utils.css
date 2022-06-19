@@ -30,7 +30,7 @@
 
 .ram {
 	display: grid;
-	grid-gap: 1rem;
+	grid-gap: var(--ram-gap, 1rem);
 	grid-template-columns: repeat(auto-fit, minmax(var(--ram-min, 150px), 1fr));
 }
 
