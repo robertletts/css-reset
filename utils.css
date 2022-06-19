@@ -25,7 +25,7 @@
 }
 
 .text-wrapper {
-	width: min(75ch, 100vw - 2rem);
+	width: min(65ch, 100vw - 2rem);
 }
 
 .ram {
@@ -42,6 +42,10 @@
 .full-bleed {
 	width: 100vw;
 	margin-left: calc(50% - 50vw);
+}
+
+.banner-bleed {
+	border-image: conic-gradient(pink 0 0) fill 1//0 50vw;
 }
 
 /* Context dependent util for custom list item alignment */
