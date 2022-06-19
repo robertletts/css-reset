@@ -19,6 +19,11 @@
 	outline-offset: 0.25rem;
 }
 
+*::selection {
+	color: var(--color-bg);
+	color: var(--color-fg);
+}
+
 /* Parent wrapper layout utilities */
 .spacing > * + * {
 	margin-block-start: var(--spacing, 1rem);
@@ -45,7 +50,10 @@
 }
 
 .banner-bleed {
-	border-image: conic-gradient(pink 0 0) fill 1//0 50vw;
+	background: var(--color-bg);
+	box-shadow: 0 0 0 100vmax var(--color-bg);
+	clip-path: inset(0 -100vmax);
+	color: var(--color-fg);
 }
 
 /* Context dependent util for custom list item alignment */
