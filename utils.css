@@ -25,7 +25,7 @@
 }
 
 .text-wrapper {
-	width: min(80ch, 100vw - 2rem);
+	width: min(75ch, 100vw - 2rem);
 }
 
 .ram {
