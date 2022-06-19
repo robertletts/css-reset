@@ -21,7 +21,7 @@
 
 /* Parent wrapper layout utilities */
 .spacing > * + * {
-	margin-block-start: var(—spacing, 1rem);
+	margin-block-start: var(--spacing, 1rem);
 }
 
 .text-wrapper {
